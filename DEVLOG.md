@@ -18,3 +18,31 @@
 
 **Plan for tomorrow:**
 - Build the spend audit form with reusable components, TypeScript types, validation, and local state persistence.
+
+---
+
+## Day 2 — 2026-05-08
+
+**Hours worked:** 5
+
+**What I did:**
+- Built the AI spend audit page UI
+- Created reusable ToolCard component architecture
+- Added AI tool selection dropdowns and spend input fields
+- Implemented team information section and use-case selection
+- Improved overall SaaS dashboard styling and layout consistency
+- Practiced component composition and prop structuring in React
+- Refined project folder organization for scalability
+
+**What I learned:**
+- Small UI and component nesting mistakes in React can create rendering issues that take significant debugging time.
+- Building reusable components early makes scaling product features much easier later.
+
+**Blockers / what I'm stuck on:**
+- Need to implement dynamic multi-tool state management cleanly before building the audit calculation engine.
+
+**Plan for tomorrow:**
+- Add dynamic add/remove tool functionality
+- Implement audit calculations and savings logic
+- Generate recommendation summaries and report cards
+- Start building the final audit results dashboard
